@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+https://quiz-app-final.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Module 2 Final Project Evaluation
 
-## Available Scripts
+You must meet all of the following requirements to pass Module 2 Project
+Minimum Project Requirements
 
-In the project directory, you can run:
+    Project must be approved by Instructor approval at the start of project week
+    Project code is pushed to a public Git repository
+    The code should be written in ES6 as much as possible
+    Use the create-react-app generator to start your project.
+    Follow the instructions on this repo to setup the generator: create-react-app
+    Your app should have one HTML page to render your react-redux application - SPA
+    You can build off of Mid-Mod-2 Project. 
+    COMPONENTS
+        There should be 2 container stateful Class components 
+        There should be 7 functional components
+    ROUTES
+        There should be 3 or more routes using react-router
+        Proper RESTful routing
+    STATE MANAGEMENT
+        Use Redux middleware to respond to and modify state change
+    DATA
+        Make use of async actions - minimum of using 1 Third-Party API to receive data
+        Frontend uses AJAX requests
+        Your client-side application should handle the display of data with minimal data manipulation - you shouldn't have to click a button to do a Fetch or Axios AJAX call or render a list of data
+    DEPLOYMENT
+        Project is deployed using using Heroku
+        App renders in browser
+    README
+        Has README.md file at the root of repository
+        Clearly documents the purpose of the project as a problem statement
+        Clearly documents the target end user for this program.
+        Include embedded link (not url) to publicly deployed app
+    CSS
+        Uses regular CSS, styled components, or CSS frameworks
 
-### `npm start`
+Exceeding Project Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Incorporating a new technology not taught in the program
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ 
+Presentation Requirements
 
-### `npm test`
+A minimum score of 1 must be met for every item below to pass.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+0 - does not meet 1 - meets 2 - exceeds
+Problem Statement
 
-### `npm run build`
+     - 0 - Does not state the problem that their program solves
+     - 1 - Clearly states the problem that the application solves
+     - 2 - Describes the end-user of their application and what problems their application could solve
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technical Problem Solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+     - 0 - Does not state the core solution of their application
+     - 1 - Overviews the architecture of their program and how it solves the user's problems
+     - 2 - Details the architecture of their program including data structures and algorithms used to solve the problem of the user
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Technical Language
 
-### `npm run eject`
+     - 0 - Does not demonstrate accurate programming language during the presentation
+     - 1 - Uses language that demonstrates general programming concepts during presentation
+     - 2 - Uses accurate programming terminology during presentation that demonstrates work ready skills.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Meetings with instructors
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+An instructor will contact you to setup a meeting time to approve your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You will meet with an instructor for 15 minutes to get your game idea approved. Be sure to write out what features you will need to build in order to meet MVP and some stretch goal ideas.
+How to Submit Your Project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    Submit your github link.
 
-## Learn More
+You will present your project and show your code to classmates and instructors.
+Where to go for help during project week
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Seek out help online
+    Seek out help with your classmates
+    Seek out help with our class TA
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+TA Hours
 
-### Code Splitting
+    Will remain the same!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Suggested Ways to Get Started
 
-### Analyzing the Bundle Size
+    Wireframe Make a drawing of what your app will look like in all of the stages of the game (what does it look like as soon as you log on to the site? What does it look like while the player is playing? What does it look like when the player wins / loses?).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Break the project down into different components (data, presentation, views, style, DOM manipulation) and brainstorm each component individually.
 
-### Making a Progressive Web App
+    Commit early, commit often. Don’t be afraid to break something because you can always go back in time to a previous version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Consult documentation resources (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
 
-### Advanced Configuration
+ (Links to an external site.)Think about...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Creativity
+    Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user?
 
-### Deployment
+    Code Quality
+    Did you follow code style guidance and best practices covered in class, such as spacing, indentation, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Problem Solving
+    Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
